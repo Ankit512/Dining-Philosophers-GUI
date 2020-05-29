@@ -58,8 +58,11 @@ After that, signal operation is performed on fork[i] and fork[ (i+1) % 5]. This 
 ![](nbproject/dining.PNG)
 
 The colured tabs indicate the following:
+
 🟡 - Eating
+
 🔴 - Hungry
+
 🟢 - Thinking
 
 
