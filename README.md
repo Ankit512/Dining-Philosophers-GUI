@@ -70,3 +70,11 @@ The colured tabs indicate the following:
 
 ## Conclusion
 We have achieved our goal of a simple and efficient solution for the Dining Philosophers.
+
+
+## Done by
+- Ankit Kumar
+
+
+## References
+[Avi Farah](https://www.codeproject.com/Articles/1239410/Dining-Philosophers-Problem)
