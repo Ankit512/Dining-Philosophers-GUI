@@ -1,6 +1,6 @@
 # Dining-Philosophers-With-GUI
 
-<h2>A java base approach to the solution of the famous Dining Philosophers problem which explains how Deadlock Scheduling works.<h2>
+<h2>A java based approach to the solution of the famous Dining Philosophers problem which explains how Deadlock Scheduling works.<h2>
 
 <h2>Here is the problem description</h2> 
 
