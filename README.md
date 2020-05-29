@@ -1,6 +1,6 @@
-# Dining-Philosopher-With-GUI
+# Dining-Philosophers-With-GUI
 
-<h2>A java base approach to the solution of the famous Dining Philosopher problem which explains how Deadlock Scheduling works.<h2>
+<h2>A java base approach to the solution of the famous Dining Philosophers problem which explains how Deadlock Scheduling works.<h2>
 
 <h2>Here is the problem description</h2> 
 
@@ -55,6 +55,13 @@ After that, signal operation is performed on fork[i] and fork[ (i+1) % 5]. This 
 
 
 ## Output
-![](src/Philosoper/dining.png)
+![](nbproject/dining.PNG)
+
+The colured tabs indicate the following:
+🟡 - Eating
+🔴 - Hungry
+🟢 - Thinking
 
 
+## Conclusion
+We have achieved our goal of a simple and efficient solution for the Dining Philosophers.
