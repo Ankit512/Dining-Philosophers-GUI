@@ -36,6 +36,7 @@ semaphore fork [5];  #either of the one can be used
 Initially the elements of the forks are initialized to 1 as the forks are on the table and not picked up by a philosopher.
 The structure of a random philosopher i is given as follows:
 
+```java
 do {
 wait( fork[i] );
 wait( fork[ (i+1) % 5] );
@@ -48,6 +49,7 @@ signal( fork[ (i+1) % 5] );
 . THINKING
 .
 } while(1);
+```
 
 In the above structure, first wait operation is performed on fork[i] and fork[ (i+1) % 5]. This means that the philosopher i has picked up the fork on his sides. Then the eating function is performed.
 
