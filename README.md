@@ -31,7 +31,7 @@ The solution of the Dining Philosopher Problem is to use a semaphore to represen
 
 The structure of the fork is shown below:
 
-semaphore fork [5];  #either of the one can be used
+semaphore fork [5];  
 
 Initially the elements of the forks are initialized to 1 as the forks are on the table and not picked up by a philosopher.
 The structure of a random philosopher i is given as follows:
